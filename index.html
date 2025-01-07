@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMNI</title>
+<!--tailwind css cdn link-->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+          light: '#3AB0FF',
+          DEFAULT: '#1E40AF',
+          dark:'#1E3A8A',
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+<style type="text/tailwindcss">
+@layer utilities {
+  .content-auto {
+    content-visibility: auto;
+  }
+}
+</style>
+</head>
+<body>
+  <div class="" style="background-image: url(pexels-fotios-photos-109260.jpg)">
+    <div > <!--nav start-->
+      <div>
+        <nav class="bg-transperent flex  flex-row justify-between p-2 text-white pt-6 ">
+          <div>
+            <a href="#" class="flex pl-8">
+              <span class="text-green-500 text-xl font-bold">LUMNI</span>
+            </a>
+          </div>
+          <ul class="flex flex-row gap-x-4 justify-between ml-80"><!--nav items-->
+            <li>
+              <a href="#">
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>About</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Service</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Our-Mission</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Hydrophonics</span>
+              </a>
+            </li>
+          </ul>
+        
+         <div class="relative w-full max-w-md" >
+          <!--search icon-->
+          <div class=" " >        
+           <input type="search" placeholder="Explore" class="w-60 bordre-none focus:rig-0 focus:outline-none text-gray-700"  >
+           <button type="submit" class="bg-green-500">Search</button> 
+            <button class="bg-green-500 p-1 font-bold rounded-xl w-20 text-white">contact</button>
+          </div>
+          </div>
+        </nav>
+      </div>
+    </div> <!--nav end -->
+    
+    <!--style one -->
+   <main>
+<h2 class="text-white font-bold text-6xl text-center mt-40">Clean,Safe,Healthy and </h2>
+<p class="text-white text-4xl text-center">Sustainable Environment</p>
+<div class="flex justify-center mt-10">
+<button class="bg-green-500 text-white px-4 p-2 rounded mb-20">Read More</button>
+</div>      
+</main>
+<div class="bg-green-500 h-20 gap-2 text-white p-6">
+<div>
+  <ul class=" flex flex-row gap-x-20 justify-center text-2xl"><!--nav items-->
+    <li>
+      <a href="#">
+        <span>Renewable Energy</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span>Ocean - Recycling </span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span>Environmanetal </span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span>Our-Mission</span>
+      </a>
+    </li>
+  
+</div>
+</div>
+      </div>
+
+      <div class="bg-white flex flex-row p-8 gap-9 my-6" > <!--part 2-->
+<div >
+  <img src="green.jpg.jpg"  class=" w-80 h-80 rounded-3xl m-4" alt="">
+</div>
+<div class="flex flex-wrap  flex-col w-80 ">
+  <h2 class="font-bold text-3xl">Bulding a grenner future together forever</h2>
+  <br> 
+  <ul class=" list-disc ">
+    <li class=" text-gray-400 text-2xl "  >Economic Benefit</li>
+    <p class="text-justify text-2sm pl-2">Plant provides us with food and lots fo household take 
+      advantage of this by growing produce in vegetable
+    </p>
+    <br>
+    <li class="text-gray-400 text-2xl">Environmental Benefit</li>
+    <p class="text-justify text-2sm pl-2"> Plant provides us with food and lots fo household take 
+      advantage of this by growing produce in vegetable
+    </p>
+  </ul>
+  <button class="rounded-2xl text-white font-bold w-40 bg-green-500 p-2 mt-3">Learn more</button>
+</div>
+      </div>
+      <div class="bg-gray-100">
+        <div class="  pt-8 pl-40">
+        <h2 class="font-bold  text-2xl">Lunmi helps Preserve The Earth <br>For Future Generations </h2>
+      </div>
+    </div>
+      <div class="bg-gray-100 w-100% h-400 flex flex-row justify-center p-5"><!--Container-->
+
+        <div class=" bg-white w-80 m-4 p-5">
+<div>
+  <img src="recycling-symbol-svgrepo-com.svg" class="w-11" alt="">
+</div>
+<h2 class="font-bold text-gray-500 mb-3 ">Waste Recycling</h2>
+<p class="text-sm mb-3">Lunmi creats a cycle of renewable, waste is redeemed and the earth is revitalized 
+  through Recycling's alchemy.
+</p>
+<img src="recycle-bin.png.jpg" class="" alt="">
+      </div>
+
+      <div class=" bg-white w-80 m-4 p-5">
+        <div>
+          <img src="ocean-svgrepo-com.svg" class="w-11" alt="">
+        </div>
+        <h2 class="font-bold text-gray-500 mb-3 ">Ocean Cleaning </h2>
+        <p class="text-sm mb-3">Lunmi helps reclaim the sea's plendor, Cleans the ocean water and the sorrounding.
+        </p>
+        <img src="ocean.png.jpg" class="" alt="">
+              </div>
+
+              <div class=" bg-white w-80 m-4 p-5">
+                <div>
+                  <img src="hand-with-growing-plant-svgrepo-com.svg" class="w-11" alt="">
+                </div>
+                <h2 class="font-bold text-gray-500 mb-3 ">Safe Environment</h2>
+                <p class="text-sm mb-3">Lunmi creats a cycle of renewable, waste is redeemed and the earth is revitalized 
+                  through Recycling's alchemy.
+                </p>
+                <img src="plant-green.png.jpg" class="" alt="">
+                      </div>
+    </div>
+</body>
+</html>
